@@ -1,0 +1,20 @@
+{
+  "name": "crodriguezbrito/link-tracker",
+  "description": "A module to track links.",
+  "type": "library",
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "Carlos Rodríguez",
+      "email": "carlos.rodriguez@newfold.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "LinkTracker\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.4"
+  }
+}

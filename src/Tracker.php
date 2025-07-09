@@ -32,8 +32,6 @@ class Tracker
 				$url = str_replace( $url_parts['query'], $query, $url );
 			}
 		}
-		
-		
 		return $url;
 	}
 }

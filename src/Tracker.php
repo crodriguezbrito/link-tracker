@@ -11,7 +11,7 @@ class Tracker
 	 * @param array $params An associative array of query parameters.
 	 * @return string The complete URL with query parameters.
 	 */
-	public static function buildlink(string $url, array $params = []): string
+	public static function BuildLink(string $url, array $params = []): string
 	{
 		
 		if ( ! empty( $params ) ) {

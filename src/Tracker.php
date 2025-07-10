@@ -2,8 +2,20 @@
 
 namespace LinkTracker;
 
+use NewfoldLabs\WP\ModuleLoader\Container;
+
 class Tracker
 {
+	/**
+	 * Dependency injection container.
+	 *
+	 * @var Container
+	 */
+	protected $container;
+	
+	public function __construct( Container $container ) {
+		$this->container = $container;
+	}
 	/**
 	 * Builds a URL with query parameters.
 	 *

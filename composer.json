@@ -2,7 +2,7 @@
   "name": "crodriguezbrito/link-tracker",
   "description": "A module to track links.",
   "type": "library",
-  "license": "GPL-2.0-or-later",
+  "license": "GPL-3.0-or-later",
   "authors": [
     {
       "name": "Carlos Rodríguez",
@@ -12,7 +12,10 @@
   "autoload": {
     "psr-4": {
       "LinkTracker\\": "src/"
-    }
+    },
+    "files": [
+        "src/functions.php"
+    ]
   },
   "require": {
     "php": ">=7.4"
